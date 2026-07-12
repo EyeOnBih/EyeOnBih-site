@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EyeOnBIH</title>
+    <meta
+      name="description"
+      content="A modern starter website for EyeOnBIH."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a href="#" class="brand">EyeOnBIH</a>
+        <div class="nav-links">
+          <a href="#articles">Articles</a>
+          <a href="#about-us">About Us</a>
+          <a href="#instagram-posts">Instagram Posts</a>
+          <a href="#videos">Videos</a>
+          <a href="#team">Our Team</a>
+          <a href="#apply">Apply</a>
+        </div>
+      </nav>
+
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Insights • Visibility • Impact</p>
+          <h1>EyeOnBIH brings clarity to the information that matters.</h1>
+          <p class="hero-text">
+            Build a polished, modern web presence that helps your audience understand your mission and connect with your work.
+          </p>
+          <div class="hero-actions">
+            <a href="#articles" class="btn btn-primary">Read Articles</a>
+            <a href="#team" class="btn btn-secondary">Meet the Team</a>
+          </div>
+        </div>
+        <div class="hero-card" aria-label="Highlights">
+          <h3>What EyeOnBIH offers</h3>
+          <ul>
+            <li>Clear messaging</li>
+            <li>Modern digital presence</li>
+            <li>Audience-focused design</li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Explore</p>
+          <h2>Jump to the stories, updates, and people behind EyeOnBIH.</h2>
+        </div>
+        <div class="card-grid">
+          <a href="#articles" class="card card-link">
+            <h3>Articles</h3>
+            <p>Read the latest stories, notes, and public updates.</p>
+          </a>
+          <a href="#about-us" class="card card-link">
+            <h3>About Us</h3>
+            <p>Learn about the mission, values, and purpose of EyeOnBIH.</p>
+          </a>
+          <a href="#instagram-posts" class="card card-link">
+            <h3>Instagram Posts</h3>
+            <p>See updates and highlights from our social channels.</p>
+          </a>
+          <a href="#videos" class="card card-link">
+            <h3>Videos</h3>
+            <p>Watch interviews, features, and short video stories.</p>
+          </a>
+          <a href="#team" class="card card-link">
+            <h3>Our Team</h3>
+            <p>Meet the people behind the work and the ideas.</p>
+          </a>
+          <a href="#apply" class="card card-link">
+            <h3>Apply</h3>
+            <p>Explore opportunities to join, collaborate, or contribute.</p>
+          </a>
+        </div>
+      </section>
+
+      <section id="articles" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Articles</p>
+            <h2>Fresh stories and updates.</h2>
+          </div>
+          <p>
+            This is where your latest articles, announcements, and features can live in a polished, easy-to-read format.
+          </p>
+        </div>
+      </section>
+
+      <section id="about-us" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">About Us</p>
+          <h2>Making important information easy to discover.</h2>
+        </div>
+        <p>
+          EyeOnBIH is built around transparency, relevance, and a memorable user experience that helps your message stand out.
+        </p>
+      </section>
+
+      <section id="instagram-posts" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Instagram Posts</p>
+            <h2>Share social moments in one place.</h2>
+          </div>
+          <p>
+            Add your recent Instagram highlights, carousel posts, and short updates here to keep your audience engaged.
+          </p>
+        </div>
+      </section>
+
+      <section id="videos" class="section container">
+        <div class="section-heading">
+          <p class="eyebrow">Videos</p>
+          <h2>Bring your story to life with video content.</h2>
+        </div>
+        <p>
+          Embed short clips, interviews, and featured videos so visitors can experience your work in motion.
+        </p>
+      </section>
+
+      <section id="team" class="section section-alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Our Team</p>
+            <h2>Meet the people behind the mission.</h2>
+          </div>
+          <p>
+            Introduce your team members, collaborators, and leadership with short bios and photos.
+          </p>
+        </div>
+      </section>
+
+      <section id="apply" class="section container contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Apply</p>
+          <h2>Ready to join or collaborate with EyeOnBIH?</h2>
+        </div>
+        <form class="contact-form">
+          <input type="text" placeholder="Your name" />
+          <input type="email" placeholder="Your email" />
+          <textarea rows="4" placeholder="Tell us about your background or idea"></textarea>
+          <button type="submit" class="btn btn-primary">Apply Now</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-content">
+        <p>© <span id="year"></span> EyeOnBIH. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
